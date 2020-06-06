@@ -1,0 +1,47 @@
+customer 
+    name
+    mobile
+    email
+    user
+    createdAt
+
+employees
+    name 
+    email
+    mobile
+    department
+    user 
+    createdAt
+
+department
+    name
+    createdAt 
+
+ticket
+    customer
+    department
+    priority
+    message
+    isResolved
+    code 
+    user 
+    createdAt
+    employees
+
+comments
+    ticket 
+    user 
+    message
+    createdAt
+
+user
+    username
+    email
+    mobile
+    role 
+    tokens
+    createdAt
+    allowAccess
+
+
+
