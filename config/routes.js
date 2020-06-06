@@ -35,8 +35,8 @@ router.delete('/api/employees/:id', authenticateUser, employeesController.destro
 
 router.get('/api/tickets', authenticateUser, ticketsController.list)
 router.post('/api/tickets', authenticateUser, ticketsController.create)
-router.get('/tickets/:id', authenticateUser, ticketsController.show)
-router.put('/tickets/:id', authenticateUser, ticketsController.update)
-router.delete('/tickets/:id', authenticateUser, ticketsController.destroy)
+router.get('/api/tickets/:id', authenticateUser, ticketsController.show)
+router.put('/api/tickets/:id', authenticateUser, ticketsController.update)
+router.delete('/api/tickets/:id', authenticateUser, ticketsController.destroy)
 
 module.exports = router
