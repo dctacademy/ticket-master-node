@@ -13,7 +13,7 @@
     "mongoose": "^5.5.12",
     "mongoose-unique-validator": "^2.0.3",
     "react-router-dom": "^5.1.2",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {},
   "scripts": {
